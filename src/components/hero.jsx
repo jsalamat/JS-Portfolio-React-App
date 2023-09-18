@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
 <section className="hero">
-  <div className="hero-container">
+  <div className="hero-container gradient-background">
     <h2>JS DEV TIME</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo bibendum iaculis. Aenean nec nulla nisl. Etiam sit amet ante in elit tincidunt condimentum in in urna.</p>
    </div>

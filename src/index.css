@@ -67,12 +67,37 @@ button:focus-visible {
 }
 
 
-
+/* HERO SECTION */
 section.hero {
-  background: linear-gradient(to right, #5580e9 30%,  #8860d0);
+  background: linear-gradient(308deg, #5ab9ea, #8860d0, #f497df, #5580e9, #7acb68);
   color: white;
   line-height: 1.5;
   font-family: 'Nunito', sans-serif;
+  animation: gradient 15s ease infinite; 
+  background-size: 400% 400%;
+}
+
+@-webkit-keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
+}
+@keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -122,4 +147,19 @@ section.hero {
   width: 100%;
   object-fit: cover;
   object-position: right center;
+}
+
+/* ABOUT JSDEV */
+.flex {
+  display: flex;
+}
+.w-1\/2{
+  width:50%
+}
+.dev-img{
+  width:100%;
+}
+
+.w-full{
+  width:100%;
 }

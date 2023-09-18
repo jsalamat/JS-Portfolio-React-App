@@ -6,6 +6,7 @@ import Header from './components/navbar';
 import Hero from './components/hero';
 import Hero2 from './components/hero2';
 import About from './components/about';
+import Skills from "./components/skillsInfo";
 import Footer from './components/footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Hero/>
     <About/>
+    <Skills/>
     <Footer/>
 
     </div>

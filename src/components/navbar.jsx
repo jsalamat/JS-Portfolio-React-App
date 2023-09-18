@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="flex">
+    <div className="block">
 
 
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
