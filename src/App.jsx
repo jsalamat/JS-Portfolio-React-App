@@ -6,8 +6,11 @@ import Header from './components/navbar';
 import Hero from './components/hero';
 import Hero2 from './components/hero2';
 import About from './components/about';
-import Skills from "./components/skillsInfo";
+import Skills from './components/skillsInfo';
+import TestA from './components/testReact';
+import TestB from './components/Testcode';
 import Footer from './components/footer';
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
     <Hero/>
     <About/>
     <Skills/>
+    {/* <TestA/> */}
+    {/* <TestB/> */}
     <Footer/>
 
     </div>
