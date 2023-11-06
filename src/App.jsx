@@ -20,8 +20,8 @@ function App() {
     <Hero/>
     <About/>
     <Skills/>
-    {/* <TestA/> */}
-    {/* <TestB/> */}
+    {/* <TestA/>
+    <TestB/> */}
     <Footer/>
 
     </div>

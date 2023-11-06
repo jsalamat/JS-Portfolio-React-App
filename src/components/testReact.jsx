@@ -6,7 +6,7 @@ const people = ['Rowe', 'Prevost', 'Gare'];
 
 const testReact = () => {
     const peopleList = people.map((person,i) =>
-    <li>{person}</li>
+    <li key={'person_' + i} >{person}</li>
     );
     
   return (
