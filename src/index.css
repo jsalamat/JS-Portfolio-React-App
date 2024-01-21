@@ -69,7 +69,8 @@ button:focus-visible {
 
 /* HERO SECTION */
 section.hero {
-  background: linear-gradient(308deg, #5ab9ea, #8860d0, #f497df, #5580e9, #7acb68);
+  /* background: linear-gradient(308deg, #5ab9ea, #8860d0, #f497df, #5580e9, #7acb68); */
+  background: linear-gradient(308deg, #fb8ad8, #ecbcf6, #93c4fe, #8f98ff, #a2fafe);
   color: white;
   line-height: 1.5;
   font-family: 'Nunito', sans-serif;

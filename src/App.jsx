@@ -9,6 +9,7 @@ import About from './components/about';
 import Skills from './components/skillsInfo';
 import TestA from './components/testReact';
 import TestB from './components/Testcode';
+import TestC from './components/Testif';
 import Footer from './components/footer';
 
 
@@ -21,7 +22,8 @@ function App() {
     <About/>
     <Skills/>
     {/* <TestA/>
-    <TestB/> */}
+    <TestB/> 
+    <TestC/> */}
     <Footer/>
 
     </div>
