@@ -7,6 +7,7 @@ import Hero from './components/hero';
 import Hero2 from './components/hero2';
 import About from './components/about';
 import Skills from './components/skillsInfo';
+import FeaturesInfo from './components/featureInfo';
 import TestA from './components/testReact';
 import TestB from './components/Testcode';
 import TestC from './components/Testif';
@@ -19,8 +20,9 @@ function App() {
     
     <Header/>
     <Hero/>
-    <About/>
+    {/* <About/> */}
     <Skills/>
+    <FeaturesInfo/>
     {/* <TestA/>
     <TestB/> 
     <TestC/> */}
