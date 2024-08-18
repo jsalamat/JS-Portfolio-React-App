@@ -20,6 +20,11 @@ p.decs-about{
   font-size: 1.2rem;
   color: #000;
 }
+p.decs-about.about-cta{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
 .about-img-container{
     display: flex;
     justify-content: center;
