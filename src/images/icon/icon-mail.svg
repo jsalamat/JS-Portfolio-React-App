@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Mail" xmlns="http://www.w3.org/2000/svg" width="64.16" height="64.54" viewBox="0 0 64.16 64.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #303030;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="21.11 33.07 3.52 48.66 3.52 15.77 21.11 33.07"/>
+  <polygon class="cls-1" points="60.56 15.77 60.56 48.66 42.96 33.07 60.56 15.77"/>
+  <polygon class="cls-1" points="60.56 51.78 3.52 51.78 22.78 34.71 24.45 36.35 32.04 43.81 39.63 36.35 41.3 34.71 60.56 51.78"/>
+  <polygon class="cls-1" points="60.56 12.49 41.21 31.52 39.54 33.16 32.04 40.54 24.54 33.16 22.87 31.52 3.52 12.49 60.56 12.49"/>
+</svg>

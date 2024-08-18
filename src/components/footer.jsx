@@ -7,7 +7,7 @@ const Footer = () => {
     
   return (
     <div className="bg-dark  text-white py-3 text-center">
-        <div>JSDEV @ {currentYear }. All Rights Reserved </div>
+        <div><a href="#top" className="footer-logo">&lt;JSDEV&gt;</a> @ {currentYear }. All Rights Reserved </div>
     </div>
   )
 }

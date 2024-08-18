@@ -1,0 +1,62 @@
+#about-skill{
+  padding-bottom:7rem;
+}
+
+/* Equivalent of @mixin white-gradient */
+.white-gradient {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  }
+  
+  /* Animation */
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+  }
+  
+  /* Styling */
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 238px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+  }
+  
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+  }
+  
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    /* Need to match number of slides in skillsSlide.jsx */
+    width: calc(300px * 11);
+  }
+  
+  .slider .slide {
+    height: 100px;
+    width: 300px;
+  }
+
+  .svg-container svg{
+    height: 100px;
+  }

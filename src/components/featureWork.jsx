@@ -19,7 +19,6 @@ function featureWork({ image, title, alt, cat, description, url}) {
             alt={ alt }
             src={image}
             style={{height: 180}}
-            top
             width="100%"
             />
 

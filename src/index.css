@@ -66,7 +66,13 @@ button:focus-visible {
   }
 }
 
-
+.header-logo{
+  font-size: 2rem;
+}
+.footer-logo{
+  text-decoration: none;
+  color: #fff;
+}
 /* HERO SECTION */
 section.hero {
   /* background: linear-gradient(308deg, #5ab9ea, #8860d0, #f497df, #5580e9, #7acb68); */
@@ -77,7 +83,29 @@ section.hero {
   animation: gradient 15s ease infinite; 
   background-size: 400% 400%;
 }
-
+section.hero-grad {
+  background:url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.bg-gradient-motion{
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(308deg, #fb8ad8, #ecbcf6, #93c4fe, #8f98ff, #a2fafe);
+  opacity: .9;
+  animation: gradient 15s ease infinite; 
+  background-size: 400% 400%;
+}
 @-webkit-keyframes gradient{
   0% {
     background-position: 0 50%;
@@ -100,7 +128,83 @@ section.hero {
      background-position: 0% 50%;
   }
 }
+.hero-container-grad {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+.header-content{
+  text-align: center;
+}
+.header-content p.dev-name{
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+  margin-bottom: -15px;
+  padding-bottom: 0px;
+}
+.header-content h1{
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+.header-content p{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+  padding-bottom: 1rem;
+}
+.btn-hero{
+  background: #007bff;
+  color:#fff;
+  font-size:1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+}
 
+.btn-hero:hover,
+.btn-hero:focus{
+  background: #0f37ff;
+  color:#ffffff;
+  transition: background 2s, color 2s;
+}
+
+@media (min-width: 375px) {
+  .hero-container-grad {
+      max-width:100%;
+      width: 100%
+  }
+}
+
+@media (min-width: 640px) {
+  .hero-container-grad {
+      max-width:640px
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-container-grad {
+      max-width:768px
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container-grad {
+      max-width:1024px
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-container-grad {
+      max-width:1280px
+  }
+}
 @media (min-width: 600px) {
   section.hero {
     display: grid;
