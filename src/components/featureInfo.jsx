@@ -19,7 +19,7 @@ import coopstrategiesImg from '../images/work/screen-img-coopstrategies.png';
 import mbmsImg from '../images/work/screen-img-mbms.png';
 import caninedimensionsImg from '../images/work/screen-img-caninedimensions.png';
 
-
+import bgvscodeparalaxImg from '../images/work/bg-vs-code-paralax-min.png';
 import '../assets/css/featurework.css';
 
 
@@ -181,7 +181,7 @@ function featureInfo(args) {
         <FeatureWorkB key={site.title + "-" + index }  image={site.image} title={site.title} alt={site.alt}  cat={site.cat} description={site.description} url={site.url} />
     );
     return (
-        <section  id="portfolio">
+        <section id="portfolio" style={{ backgroundImage: `url(${bgvscodeparalaxImg})` }}>
             <div className="container portfolio-content">
                 <h2>Portfolio</h2>
                 <div className="flex-card">

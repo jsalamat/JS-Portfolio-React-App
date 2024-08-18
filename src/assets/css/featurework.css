@@ -70,7 +70,7 @@
 #portfolio {
     position: relative;
     padding: 7rem 0;
-    background-image: url("src/images/work/bg-vs-code-paralax-min.png");
+    /* background-image: url("src/images/work/bg-vs-code-paralax-min.png"); */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
