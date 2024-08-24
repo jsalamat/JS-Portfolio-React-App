@@ -80,3 +80,23 @@ h2.title-cta{
   transform: scale3d(1.25, 1.25, 1);
   opacity: 1;     
 }
+
+@media screen and (max-width: 1024px) {
+  .header-overlay {
+    background-image: linear-gradient(to bottom right, #fb8ad8, #ecbcf6, #93c4fe, #8f98ff);
+  }
+}
+@media screen and (max-width: 768px) {
+  h2.title-cta{
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  h2.title-cta{
+    font-size: 2rem;
+  }
+  .about-img{
+    height: 225px;
+    width: 225px;
+  }
+}

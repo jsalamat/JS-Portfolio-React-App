@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
+    flex-direction: row;
 }
 
 .about-content{
@@ -89,3 +90,30 @@ p.decs-about.about-cta{
       border-color: var(--secondary);
     }
   }
+
+  .w-1\/2{
+    width:50%
+  }
+
+@media screen and (max-width: 1024px) {
+  #about{
+    flex-direction: column;
+  }
+  .w-1\/2{
+    width:100%
+  }
+}
+@media screen and (max-width: 768px) {
+  h2.title-about{
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  h2.title-about{
+    font-size: 2rem;
+  }
+  .about-img{
+    height: 225px;
+    width: 225px;
+  }
+}

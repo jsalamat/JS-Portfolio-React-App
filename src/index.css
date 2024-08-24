@@ -146,13 +146,13 @@ section.hero-grad {
   padding-bottom: 0px;
 }
 .header-content h1{
-  font-size: 5rem;
+  font-size: 2rem;
   color: #fff;
   text-shadow: 1px 1px 10px black;
   text-align: center;
 }
 .header-content p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   text-align: center;
   text-shadow: 1px 1px 10px black;
@@ -186,6 +186,12 @@ section.hero-grad {
   .hero-container-grad {
       max-width:640px
   }
+  .header-content h1{
+    font-size: 3rem;
+  }
+  .header-content p{
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -197,6 +203,9 @@ section.hero-grad {
 @media (min-width: 1024px) {
   .hero-container-grad {
       max-width:1024px
+  }
+  .header-content h1{
+    font-size: 5rem;
   }
 }
 
@@ -257,9 +266,6 @@ section.hero-grad {
 /* ABOUT JSDEV */
 .flex {
   display: flex;
-}
-.w-1\/2{
-  width:50%
 }
 .dev-img{
   width:100%;
